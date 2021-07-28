@@ -1,12 +1,15 @@
-h5 {
+.h51{
     color: darkblue;
+    font-size: 100px;
 }
 
-
+.p1{
+    font-size: 35px;
+    background-color: #373738;
+    opacity: 0.6;
+}
 
 .shred{
-    background-image: url(/homework21/images/shred.jpeg);
-    background-repeat: none;
     padding: 0%;
     margin: 0%;
     background-color: white;
@@ -15,5 +18,49 @@ h5 {
 }
 
 .title1{
+
     color: darkblue;
+}
+
+.display-4{
+    margin-top: 50px;
+}
+
+.lead{
+    margin-bottom: 50px;
+}
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+header {
+    background-color: #373738;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    font-size: 30px;
+  }
+  header p {
+    display: inline-block;
+  }
+.card1{
+    margin: 20px;
+    margin-bottom: 188px;
+}
+.card2{
+    margin: 20px;
+    margin-bottom: 191px;
 }
