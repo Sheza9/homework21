@@ -1,6 +1,8 @@
 .h51{
-    color: darkblue;
+    color: white;
     font-size: 100px;
+    -webkit-text-stroke: 1px blue; /* width and color */
+    font-family: sans; color: white;
 }
 
 .p1{
@@ -19,7 +21,7 @@
 
 .title1{
 
-    color: darkblue;
+    color: darkblue
 }
 
 .display-4{
@@ -57,10 +59,17 @@ header {
     display: inline-block;
   }
 .card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 20px;
     margin-bottom: 188px;
 }
 .card2{
     margin: 20px;
     margin-bottom: 191px;
+}
+
+.white{
+    color: white;
 }
